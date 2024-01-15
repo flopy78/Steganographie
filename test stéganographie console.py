@@ -1,10 +1,6 @@
 from PIL import Image
-from time import time
 from math import log2
 from pathlib import Path
-
-def get_bin(n):
-    return bin(n)[2:]
 
 def is_encodable(_bytes,img,n_weak):
     to_encode = 8*len(_bytes)
