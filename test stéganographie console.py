@@ -232,8 +232,3 @@ while True:
 
         message,n_written  = file_decode(src_img,dest_file)
         print("Et voilà ! Votre fichier doit maintenant être décodé.")
-
-
-'''
-Infinity
-'''
